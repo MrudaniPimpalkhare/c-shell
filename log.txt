@@ -1,0 +1,5 @@
+iman echo
+Iman echo
+iMan echo
+[A
+neonate -n 2

@@ -1,0 +1,26 @@
+#include "header.h"
+
+char path[MAX_LEN];
+char home[MAX_LEN];
+char input[MAX_LEN];
+char tokens[100][MAX_LEN];
+char temp_tokens[100][MAX_LEN];
+char path_copy[MAX_LEN];
+char bash[MAX_LEN_2];
+char path_to_log[MAX_LEN];
+char previous_dir[MAX_LEN]; 
+char fg[MAX_LEN_2];
+char alias[MAX_LEN_2];
+char copy[100][MAX_LEN_2];
+char commands_pipe[100][100][MAX_LEN];
+char out[MAX_LEN];
+int size_array[100];
+int al_size;
+int size;
+int temp_size;
+int bg;
+int proc_count;
+int bg_count;
+int fg_process_pid;
+pid_t shell_pgid;
+int has_op;
